@@ -20,3 +20,17 @@ body {
 body {
   font-size: 1.6rem;
 }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav > li {
+  padding: 2rem;
+  margin: 0.5rem;
+  border: 2px solid black;
+  cursor: pointer;
+}
