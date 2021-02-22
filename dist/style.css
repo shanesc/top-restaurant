@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root {
 }
 
@@ -15,22 +17,52 @@ html {
 
 body {
   box-sizing: border-box;
+  padding: 2rem 2rem 0;
 }
 
 body {
   font-size: 1.6rem;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
 }
 
-.nav {
+h1 {
+  margin-bottom: 3rem;
+}
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+img {
+  width: 50rem;
+  height: 50rem;
+  object-fit: cover;
+  object-position: 0 -5rem;
+  border-radius: 2rem;
+  box-shadow: 0 0.3rem 1rem 0 black;
+  margin-bottom: 2rem;
+}
+
+.nav {
   display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .nav > li {
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   margin: 0.5rem;
   border: 2px solid black;
   cursor: pointer;
+}
+
+.nav > li:hover {
+  background: lightgrey;
+}
+
+.contact-list > li {
+  margin-bottom: 1rem;
 }
